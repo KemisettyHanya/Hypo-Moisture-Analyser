@@ -1,0 +1,11 @@
+build/
+bin/
+*.o
+*.a
+*.so
+.vscode/
+.idea/
+*.swp
+*~
+data/inspections/*.jpg
+!data/inspections/.gitkeep

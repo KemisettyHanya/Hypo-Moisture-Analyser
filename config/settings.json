@@ -1,0 +1,47 @@
+{
+    "system": {
+        "chamberName": "Benchtop-Station-01",
+        "cameraMode": "static_file",
+        "headless": false,
+        "sampleImageDir": "data/sample_images",
+        "defaultSampleImage": "data/sample_images/dry_sample.png"
+    },
+    "camera": {
+        "frameWidth": 1920,
+        "frameHeight": 1080,
+        "shutterSpeedUs": 500,
+        "analogGain": 1.0,
+        "lensPosition": 0.0,
+        "frameAverageCount": 4,
+        "deviceIndex": 0
+    },
+    "morphology": {
+        "scaleFactorMmPerPixel": 0.05,
+        "clumpThresholdMm": 4.5,
+        "circularityThreshold": 0.65,
+        "minGranuleAreaPx": 25.0,
+        "gaussianBlurKernel": 5,
+        "adaptiveBlockSize": 25,
+        "adaptiveC": -5.0,
+        "roiCenterX": 960,
+        "roiCenterY": 540,
+        "roiRadiusPx": 460,
+        "autoDetectDish": false
+    },
+    "calibration": {
+        "alpha": 19.5,
+        "beta": 0.075,
+        "gamma": 12.0
+    },
+    "quality": {
+        "minMoisturePct": 5.5,
+        "maxMoisturePct": 10.0
+    },
+    "batch": {
+        "batchPrefix": "BATCH",
+        "batchLogPath": "data/batch_log.csv",
+        "inspectionsDir": "data/inspections",
+        "sessionStatePath": "config/session_state.json"
+    }
+}
+
